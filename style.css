@@ -1,0 +1,77 @@
+
+/* Website background */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    background-color: #808080;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #680bd2;
+    padding: 15px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Subheadings */
+h2 {
+    color: #234e70;
+}
+
+/* Paragraphs */
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+/* Button */
+button {
+    background-color: #3874a5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Style all website images */
+img {
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #16324f;
+}
+
+/* Image hover effect */
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
